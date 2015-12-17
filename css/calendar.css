@@ -1,0 +1,43 @@
+.calendar {
+
+	height: 100%;
+	background: green;
+	position: relative;
+}
+
+.calendar div {
+	position: relative;
+	height: 100%;
+}
+
+.calendar .cuerpo {
+	height: 100%;
+	background: yellow;
+	position: relative;
+}
+
+.calendar .cuerpo .perse {
+	position: relative;
+	background: orange;
+	height: 100%;
+	position: relative;
+}
+*/
+
+.calendar .days {
+
+	font-weight: bold;
+	color: rgb(255,114,96);
+}
+
+.calendar .semana.fila {
+
+	/*height: 30%;
+	background: red;*/
+}
+
+
+
+.calendar .semana div{
+	width: 13%;
+}

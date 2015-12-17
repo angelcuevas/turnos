@@ -1,0 +1,30 @@
+<div> 
+
+
+
+<ul class="stdRow only">
+	<li class="nombre">Nombre</li>
+	<li class="tipo">Tipo</li>
+	<li class="hs">Hs</li>
+
+</ul>
+	
+
+<%personal.each(function(persona){
+%>
+	<div class="stdRow only">
+		<div class="nombre"><%=persona.get("nombre")%></div>
+		<div class="tipo"><%=persona.get("tipo")%></div>
+		<div class="hs"><%=persona.get("horas")%></div>
+
+	</div>
+	
+
+<%
+})	%>
+
+
+
+
+
+</div>

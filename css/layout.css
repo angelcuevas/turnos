@@ -1,0 +1,56 @@
+
+body, html {
+
+
+	height: 100%;
+}
+
+
+
+
+#wrapper {
+
+	width: 100%;
+	height: 100%;
+
+	background: white;
+	background: rgb(255,245,195);
+
+	position: relative;
+
+	text-align: center;
+	overflow: hidden;
+}
+
+#content {
+	text-align: center;
+	height: 100%;
+	position: relative;
+
+}
+
+
+#wrapper footer {
+
+	left: 0px;
+	bottom: 0px;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+
+	background: rgb(80,80,80);
+	color: rgb(255,245,195);
+
+	font-family: corbel;
+	font-size: .9em;
+}
+
+.stdRow li, .stdRow div {
+	position: relative;
+	display: inline-block;
+}
+
+ul.stdRow{
+	list-style: none;
+	padding: 0px;
+}

@@ -1,0 +1,39 @@
+.personalList .only {
+
+	width: 90%;
+
+	margin: 4px 0px;
+	margin-left: auto;
+	margin-right: auto;
+
+
+
+}
+
+
+.personalList .only li,.personalList .only div {
+	color: rgb(80,80,80);
+	
+}
+
+
+
+.personalList ul.only li {
+	font-weight: bold;
+	color: rgb(255,114,96);
+
+}
+
+
+.only .nombre {
+	width: 40%;
+	text-align: left;
+}
+
+.only .tipo {
+	width: 30%;
+}
+
+.only .hs {
+	width: 20%;
+}
