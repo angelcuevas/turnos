@@ -1,7 +1,7 @@
 .calendar {
 
 	height: 100%;
-	background: green;
+
 	position: relative;
 }
 
@@ -12,32 +12,29 @@
 
 .calendar .cuerpo {
 	height: 100%;
-	background: yellow;
+
 	position: relative;
 }
 
-.calendar .cuerpo .perse {
-	position: relative;
-	background: orange;
-	height: 100%;
-	position: relative;
-}
-*/
 
-.calendar .days {
+
+
+.calendar .semana.days {
 
 	font-weight: bold;
 	color: rgb(255,114,96);
+	height: 25px;
 }
 
 .calendar .semana.fila {
 
-	/*height: 30%;
-	background: red;*/
+	height: 35%;
+	border-bottom : 1px solid rgb(210,210,210);
 }
 
 
 
 .calendar .semana div{
-	width: 13%;
+	width: 31%;
+	border-right: 1px solid rgb(210,210,210);
 }
