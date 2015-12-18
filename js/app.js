@@ -1,6 +1,16 @@
 
+$(document).ready(function(){
 
-      cosa = function(){
-        $("#content").html("la puta madre cosas nueva");
-      }
+
+
+
+  menu = new MainMenu().render();
+
+
+
+});
+
+
+
+
 

@@ -1,6 +1,6 @@
-define(['lib/backbone'/*, 'text!tpl/MainMenu.html'*/], function(Backbone/*, tpl*/){
+//define(['lib/backbone'/*, 'text!tpl/MainMenu.html'*/], function(Backbone/*, tpl*/){
 
-	var Name = Backbone.View.extend({
+	var MainMenu = Backbone.View.extend({
 
 		template: _.template($("script.menuTemplate").html()),
 		//Tagname: "div",
@@ -8,8 +8,8 @@ define(['lib/backbone'/*, 'text!tpl/MainMenu.html'*/], function(Backbone/*, tpl*
 		el: "#formenu",
 
 		events: {
-			"click .showList" : function(){},
-			"click .showCandelar" : function(){}
+			"click .showList" : function(){$("#content").html("ARGGGGGGGG");},
+			"click .showCandelar" : function(){$("#content").html("uhhhhhhhhhhhhh");}
 		},
 
 		initialize: function(){
@@ -34,7 +34,7 @@ define(['lib/backbone'/*, 'text!tpl/MainMenu.html'*/], function(Backbone/*, tpl*
 
 			this.$el = $("#formenu");
 
-		//	this.$el.html(this.template());
+			this.$el.html(this.template());
 
 			return this;
 		}
@@ -42,6 +42,6 @@ define(['lib/backbone'/*, 'text!tpl/MainMenu.html'*/], function(Backbone/*, tpl*
 
 	})
 
-	return Name;
+/*	return MainMenu;
 
-})
+})*/
