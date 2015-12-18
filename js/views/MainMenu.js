@@ -10,6 +10,7 @@
 		events: {
 			"click .showList" : function(){
 				$("#content #perse").empty();
+				lista.adjust();
 				$("#content #perse").append(lista.el);
 
 
