@@ -1,8 +1,8 @@
-define(['lib/backbone', 'text!tpl/PersonalList.html'], function(Backbone, tpl){
+//define(['lib/backbone', 'text!tpl/PersonalList.html'], function(Backbone, tpl){
 
 	var PersonalList = Backbone.View.extend({
 
-		template: _.template(tpl),
+		template: _.template($("script.listaTemplate").html()),
 		Tagname: "div",
 		className: 'personalList',
 
@@ -38,6 +38,6 @@ define(['lib/backbone', 'text!tpl/PersonalList.html'], function(Backbone, tpl){
 
 	})
 
-	return PersonalList;
+/*	return PersonalList;
 
-})
+})*/

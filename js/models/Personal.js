@@ -1,4 +1,4 @@
-define(['lib/backbone'],function(Backbone){
+//define(['lib/backbone'],function(Backbone){
 
 
 	var Personal =  Backbone.Model.extend({
@@ -13,6 +13,6 @@ define(['lib/backbone'],function(Backbone){
 	})
 
 
-	return Personal;
+/*	return Personal;
 
-})
+})*/

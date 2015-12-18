@@ -1,4 +1,4 @@
-define(['models/Personal'], function(Personal){
+//define(['models/Personal'], function(Personal){
 
 
 
@@ -11,7 +11,7 @@ define(['models/Personal'], function(Personal){
 
 
 
-	return PersonalCollection;
+	/*return PersonalCollection;
 
 
-})
+})*/

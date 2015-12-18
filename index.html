@@ -25,6 +25,88 @@
 	</script>
 
 
+	<script type="text/template" class="listaTemplate">
+
+	<div> 
+
+
+
+		<ul class="stdRow only">
+			<li class="nombre">Nombre</li>
+			<li class="tipo">Tipo</li>
+			<li class="hs">Hs</li>
+
+		</ul>
+			
+
+		<%personal.each(function(persona){
+		%>
+			<div class="stdRow only">
+				<div class="nombre"><%=persona.get("nombre")%></div>
+				<div class="tipo"><%=persona.get("tipo")%></div>
+				<div class="hs"><%=persona.get("horas")%></div>
+
+			</div>
+			
+
+		<%
+		})	%>
+
+
+
+
+
+	</div>
+
+
+	</script>
+
+	<script type="text/template" class="calendarTemplate">
+
+		<div>
+			
+
+
+			<div class="cuerpo">
+
+			<!--<div class="perse"> -->
+
+				<div class="stdRow semana days">
+					<div>Día</div>
+					<div>Mañana</div>
+					<div>Tarde</div>
+
+				</div>
+
+				<div class="stdRow semana fila primera">
+					<div></div>
+					<div></div>
+					<div></div>
+
+				</div>	
+				<div class="stdRow semana fila segunda">
+					<div></div>
+					<div></div>
+					<div></div>
+
+				</div>	
+			</div>	
+
+
+
+
+			<!--</div>-->
+
+
+
+
+
+
+
+		</div>
+
+	</script>
+
 
 
 	<script type="text/javascript" src="js/lib/jquery.js"></script>
@@ -35,6 +117,12 @@
 	<script type="text/javascript" src="js/lib/underscore.js"></script>
 	<script type="text/javascript" src="js/lib/backbone.js"></script>
 
+
+	<script type="text/javascript" src="js/models/Personal.js"></script>
+	<script type="text/javascript" src="js/collections/PersonalCollection.js"></script>
+	
+	<script type="text/javascript" src="js/views/calendar.js"></script>
+	<script type="text/javascript" src="js/views/PersonalList.js"></script>
 	<script type="text/javascript" src="js/views/MainMenu.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
 

@@ -8,8 +8,24 @@
 		el: "#formenu",
 
 		events: {
-			"click .showList" : function(){$("#content").html("ARGGGGGGGG");},
-			"click .showCandelar" : function(){$("#content").html("uhhhhhhhhhhhhh");}
+			"click .showList" : function(){
+				$("#content").empty();
+				$("#content").append(lista.el);
+
+
+			},
+
+			"click .ShowTurnosMaker" : function(){
+
+				$("#content").empty();	
+
+			},
+
+
+			"click .showCandelar" : function(){
+				$("#content").empty();	
+				$("#content").append(calendario.el);
+			}
 		},
 
 		initialize: function(){

@@ -1,8 +1,8 @@
-define(['lib/backbone', 'text!tpl/calendar.html'], function(Backbone, tpl){
+//define(['lib/backbone', 'text!tpl/calendar.html'], function(Backbone, tpl){
 
 	var Calendar = Backbone.View.extend({
 
-		template: _.template(tpl),
+		template: _.template($("script.calendarTemplate").html()),
 		Tagname: "div",
 		className: 'calendar',
 
@@ -38,6 +38,6 @@ define(['lib/backbone', 'text!tpl/calendar.html'], function(Backbone, tpl){
 
 	})
 
-	return Calendar;
+/*	return Calendar;
 
-})
+})*/
