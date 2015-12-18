@@ -1,14 +1,14 @@
-define(['lib/backbone', 'text!tpl/MainMenu.html'], function(Backbone, tpl){
+define(['lib/backbone'/*, 'text!tpl/MainMenu.html'*/], function(Backbone/*, tpl*/){
 
 	var Name = Backbone.View.extend({
 
-		template: _.template(tpl),
+		template: _.template($("script.menuTemplate").html()),
 		Tagname: "div",
 		className: 'mainMenu',
 
 		events: {
-			"click .showList" : function(){router.navigate("/list", {trigger: true});},
-			"click .showCandelar" : function(){router.navigate("/calendar", {trigger: true});}
+			"click .showList" : function(){alert("la puta madre");},
+			"click .showCandelar" : function(){alert("2");}
 		},
 
 		initialize: function(){
