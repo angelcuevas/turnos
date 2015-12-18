@@ -8,8 +8,8 @@ define(['lib/backbone'/*, 'text!tpl/MainMenu.html'*/], function(Backbone/*, tpl*
 		el: "#formenu",
 
 		events: {
-			"click .showList" : function(){$("#content").html("la puta madre");},
-			"click .showCandelar" : function(){$("#content").html("2");}
+			"click .showList" : function(){},
+			"click .showCandelar" : function(){}
 		},
 
 		initialize: function(){

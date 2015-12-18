@@ -63,6 +63,9 @@ require(
       menu = new MainMenu().render();
     
 
+      cosa = function(){
+        $("#content").html("la puta madreasdasd");
+      }
 
 
   });
