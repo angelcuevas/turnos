@@ -9,22 +9,22 @@
 
 		events: {
 			"click .showList" : function(){
-				$("#content").empty();
-				$("#content").append(lista.el);
+				$("#content #perse").empty();
+				$("#content #perse").append(lista.el);
 
 
 			},
 
 			"click .ShowTurnosMaker" : function(){
 
-				$("#content").empty();	
+				$("#content #perse").empty();	
 
 			},
 
 
 			"click .showCandelar" : function(){
-				$("#content").empty();	
-				$("#content").append(calendario.el);
+				$("#content #perse").empty();	
+				$("#content #perse").append(calendario.el);
 			}
 		},
 

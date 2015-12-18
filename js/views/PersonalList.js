@@ -32,6 +32,12 @@
 
 			this.$el.html(this.template({personal: personal}));
 
+			h =  $("#content").outerHeight();
+
+			alert(h);
+
+			$(this.el).css("max-height", h - 10)
+
 			return this;
 		}
 

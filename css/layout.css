@@ -29,6 +29,12 @@ body, html {
 
 }
 
+#perse {
+
+	position: relative;
+	overflow: auto;
+}
+
 
 #wrapper footer {
 

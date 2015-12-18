@@ -1,3 +1,9 @@
+.personalList{
+	max-height: 80%;
+	overflow: auto;
+}
+
+
 .personalList .only {
 
 	width: 90%;
