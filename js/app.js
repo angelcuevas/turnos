@@ -61,15 +61,11 @@ require(
 
 
       menu = new MainMenu().render();
-      $("#formenu").append(menu.el);
-      })
-  
+    
 
-  
-  //  router = new Router();
-   // Backbone.history.start();
 
 
   });
 
 
+});

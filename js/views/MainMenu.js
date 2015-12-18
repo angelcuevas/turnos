@@ -3,12 +3,13 @@ define(['lib/backbone'/*, 'text!tpl/MainMenu.html'*/], function(Backbone/*, tpl*
 	var Name = Backbone.View.extend({
 
 		template: _.template($("script.menuTemplate").html()),
-		Tagname: "div",
-		className: 'mainMenu',
+		//Tagname: "div",
+		//className: 'mainMenu',
+		el: "#formenu",
 
 		events: {
-			"click .showList" : function(){alert("la puta madre");},
-			"click .showCandelar" : function(){alert("2");}
+			"click .showList" : function(){$("#content").html("la puta madre");},
+			"click .showCandelar" : function(){$("#content").html("2");}
 		},
 
 		initialize: function(){
@@ -31,7 +32,9 @@ define(['lib/backbone'/*, 'text!tpl/MainMenu.html'*/], function(Backbone/*, tpl*
 
 		render: function(){
 
-			this.$el.html(this.template());
+			this.$el = $("#formenu");
+
+		//	this.$el.html(this.template());
 
 			return this;
 		}
