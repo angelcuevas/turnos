@@ -66,8 +66,8 @@ require(
   
 
   
-    router = new Router();
-    Backbone.history.start();
+  //  router = new Router();
+   // Backbone.history.start();
 
 
   });
