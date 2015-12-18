@@ -1,7 +1,13 @@
 .personalList{
 	max-height: 80%;
 	overflow: auto;
+    -webkit-overflow-scrolling: touch;
 }
+
+.personalList > * {
+    -webkit-transform: translateZ(0px);
+}
+
 
 
 .personalList .only {
